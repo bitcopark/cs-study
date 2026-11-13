@@ -1,39 +1,29 @@
-# Chirpy Starter
+# 💻 Computer Science Study
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
-[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+> **bitcopark**의 컴퓨터 공학(CS) 기초 스터디 기록 저장소입니다.  
+> 매주 **운영체제(Operating System)** 와 **컴퓨터구조(Computer Architecture)** 의 핵심 개념을 학습하고 정리합니다.
 
-A minimal, ready-to-use template for creating a blog with the [**Chirpy**][chirpy] Jekyll theme. Get up and running in minutes with all critical files pre-configured.
+🔗 **Study Blog:** [https://bitcopark.github.io/cs-study/](https://bitcopark.github.io/cs-study/)
 
-## Why This Starter Exists
+---
 
-When installing Chirpy through [RubyGems.org][gem], Jekyll can only read a subset of theme files (`_data`, `_layouts`, `_includes`, `_sass`, `assets`) and limited `_config.yml` options from the gem. As a result, users cannot enjoy the full out-of-the-box experience that Chirpy offers.
+## 📚 Study Topics
 
-To unlock all features, the following files must be present in your Jekyll site:
+* **운영체제 (Operating System)**
+  * 프로세스와 스레드, CPU 스케줄링, 동기화, 메모리 관리, 가상 메모리, 파일 시스템 등
+* **컴퓨터구조 (Computer Architecture)**
+  * 데이터 표현, 명령어 집합(ISA), CPU 작동 원리, 파이프라이닝, 캐시 메모리 및 보조기억장치 등
 
-```shell
+## 📅 Schedule & Workflow
+
+* **주기:** 주 1회 정기 학습 및 개념 정리
+* **기록 방식:** 학습한 내용을 마크다운(`_posts/`)으로 정리하여 GitHub Pages(Chirpy 테마)를 통해 아카이빙
+
+## 🗂️ Repository Structure
+
+```text
 .
-├── _config.yml
-├── _plugins
-├── _tabs
-└── index.html
-```
-
-This starter bundles those files from the latest **Chirpy** release along with a [CD][CD] workflow, so you can start writing immediately.
-
-## Usage
-
-Check out the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
-
-## Contributing
-
-This repository is automatically updated with new releases from the theme repository. If you encounter any issues or want to contribute to its improvement, please visit the [theme repository][chirpy] to provide feedback.
-
-## License
-
-This work is published under [MIT][mit] License.
-
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+├── _posts/          # 주간 CS 스터디 포스팅 (Markdown)
+├── _tabs/           # 블로그 카테고리, 태그, 아카이브 페이지
+├── assets/          # 포스팅에 사용되는 이미지 및 다이어그램
+└── _config.yml      # Jekyll & Chirpy 테마 설정
